@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/dropit.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.my_cont').dropit();
+		});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+</head>
+<body>
+<div id="wrap">
+	<div id="header"><img src="images/img_header.jpg" alt="" /></div>
+	<div id="container">
+		<div class="content">
+			<ul class="my_cont">
+				<li>
+					<a href="#" class="btn"><img src="images/img_myinfo.jpg" alt="" /></a>
+					<div class="user dropit-submenu"><img src="images/img_user.jpg" alt="" /></div>
+				</li>
+				<li>
+					<a href="#" class="btn"><img src="images/img_mymenu.jpg" alt="" /></a>
+					<div class="mycredit"><img src="images/img_mycredit.jpg" alt="" /></div>
+				</li>
+			</ul>
+			<div><a href="#"><img src="images/img_banner.jpg" alt="" onmouseover="this.src = 'images/img_banner_h.jpg';" onmouseout="this.src = 'images/img_banner.jpg';" /></a></div>
+		</div>
+		<div class="content help_cont"><img src="images/img_help.jpg" alt="" />
+			<ul class="info_list">
+				<li><img src="images/img_customer.jpg" alt="" /></li>
+				<li><img src="images/img_qna.jpg" alt="" /></li>
+			</ul>
+		</div>
+		<div class="content list_cont"><img src="images/img_list.jpg" alt="" /></div>
+		<div class="content info_cont">
+			<div><img src="images/img_calendar.jpg" alt="" /></div>
+			<div><img src="images/img_download.jpg" alt="" /></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

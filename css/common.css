@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+
+/**************************************************
+	Reset CSS
+**************************************************/
+html{font-size:px;}
+html,body{width:100%;height:100%;margin:0;padding:0;}
+body{margin:0;padding:0;font:12px/1.5 arial,'맑은 고딕', Malgun Gothic, '돋움', dotum, arial, sans-serif, helvetica;color:#; line-height:1;}
+dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,pre,form,fieldset,input,textarea,p,blockquote,tbody,tfoot,thead,th,td{margin:0;padding:0;vertical-align:middle;}
+body,div,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,input,select,a,em,textarea,input,strong{margin:0;padding:0;}
+input,textarea,select,button,th,td{font:12px/1 arial, '맑은 고딕', Malgun Gothic,'돋움', dotum, sans-serif, helvetica;color:#050505;vertical-align:middle;}
+table{border-collapse:collapse; border-spacing:0;}
+ol,ul,li{list-style:none;}
+caption{position:relative;}
+img{vertical-align:middle;}
+img,fieldset{border:0 none;}
+label,button,input[type="file"]{cursor:pointer;}
+em,address{font-style:normal;}
+a{color:#;text-decoration:none;}
+a:link,a:visited{color:#;text-decoration:none;}
+/*a:hover,a:active,a:focus{text-decoration:none;}*/
+button{overflow:visible;margin:0;padding:0;border:0;background:none;white-space:nowrap;cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+hr, legend, caption .hidden, .hidden{width:0; height:0; padding:0; margin:0; visibility:hidden; font-size:0;}
+:focus{outline:none;}
+
+/* HTML5 */
+header, footer, nav, section, article, aside, figure, figcaption, hgroup {display:block;}
+
+/* skip */
+#skip_nav, .blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+
+/**************************************************
+	Layout
+**************************************************/
+/* Body */
+#wrap {width:1180px; margin:0 auto;}
+#header { }
+#container { }
+
+/* container */
+.content{float:left; position:relative;}
+.info_list li{float:left;}
+
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 0;
+    left:249px; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+}
+.dropit .dropit-open .dropit-submenu { display: block; }
